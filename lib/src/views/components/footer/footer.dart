@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shoppy_app/src/models/constants/my_contants.dart';
 
 class FooterComponent extends StatelessWidget {
   // const FooterComponent({
@@ -9,7 +10,7 @@ class FooterComponent extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 55,
-      color: Colors.blueGrey.shade900,
+      color: kColorDark,
     );
   }
 }

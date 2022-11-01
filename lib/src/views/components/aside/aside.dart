@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shoppy_app/src/models/constants/my_contants.dart';
 
 class AsideComponent extends StatelessWidget {
   // const AsideComponent({
@@ -9,7 +10,7 @@ class AsideComponent extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: 150,
-      color: Colors.blue.shade300,
+      color: kColorPrimary,
     );
   }
 }
