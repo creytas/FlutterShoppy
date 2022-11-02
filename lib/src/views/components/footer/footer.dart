@@ -9,8 +9,19 @@ class FooterComponent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      width: double.infinity,
       height: 55,
       color: kColorDark,
+      child: Center(
+        child: Text(
+          'Tous les droits reserves | 2022 | Shoppy',
+          style: TextStyle(
+            fontSize: 15,
+            fontWeight: FontWeight.w500,
+            color: kColorAltDefault,
+          ),
+        ),
+      ),
     );
   }
 }

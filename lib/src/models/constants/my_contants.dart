@@ -5,3 +5,4 @@ const Color kColorAltPrimary = Color.fromARGB(255, 3, 51, 90);
 const Color kColorDefault = Color.fromARGB(255, 224, 224, 224);
 const Color kColorDark = Color.fromARGB(255, 38, 50, 56);
 const Color kTransparent = Colors.transparent;
+const Color kColorAltDefault = Color(0xB3FFFFFF);
