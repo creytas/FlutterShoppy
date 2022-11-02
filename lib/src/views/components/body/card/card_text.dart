@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shoppy_app/src/controllers/cards_controller.dart';
 
 class CardTextComponent extends StatelessWidget {
   // const CardTextComponent({
@@ -14,13 +15,11 @@ class CardTextComponent extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          Text('Nouilles sautées EXPRESS à la chinoise'),
-          Text(
-              'Plat de nouilles sautées, réalisé par la chef Ling Xiaoyu'),
-          Text('25.00 \$'),
+          Text(firstCard.title),
+          Text(firstCard.description),
+          Text('${firstCard.price} \$'),
         ],
       ),
     );
   }
 }
-

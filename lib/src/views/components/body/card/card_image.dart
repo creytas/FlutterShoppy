@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shoppy_app/src/controllers/cards_controller.dart';
 
 class CardImageComponent extends StatelessWidget {
   // const CardImageComponent({
@@ -13,7 +14,7 @@ class CardImageComponent extends StatelessWidget {
       // color: kColorPrimary,
       child: ClipRRect(
         borderRadius: BorderRadius.circular(5),
-        child: Image.asset('/images/nouilles-sautees-express.jpg',
+        child: Image.asset('/images/${firstCard.image}',
             fit: BoxFit.cover),
       ),
     );
